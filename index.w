@@ -109,14 +109,18 @@
         xid="titleBar1" title="天下客" style="background-color:#59AF16;color:#FFFFFF;"> 
         <div class="x-titlebar-left" xid="div1"> 
           <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon"
-            label="" xid="backBtn" icon="icon-chevron-left" onClick="{&quot;operation&quot;:&quot;window.close&quot;}"
+            label="" xid="backBtn" icon="icon-ios7-arrow-back" onClick="{&quot;operation&quot;:&quot;window.close&quot;}"
             bind-visible="justep.Portal.getPortal()"> 
-            <i xid="i11" class="icon-chevron-left"/>  
+            <i xid="i11" class="icon-ios7-arrow-back"/>  
             <span xid="span18"/> 
           </a> 
-        </div>  
+        <a component="$UI/system/components/justep/button/button" class="btn x-green" xid="button2" icon="icon-drag" style="background-color:transparent;">
+   <i xid="i16" class="icon-drag"></i>
+   <span xid="span21"></span></a></div>  
         <div class="x-titlebar-title" xid="div2">天下客</div>  
-        <div class="x-titlebar-right reverse" xid="div3"/> 
+        <div class="x-titlebar-right reverse" xid="div3"><a component="$UI/system/components/justep/button/button" class="btn x-green" xid="button1" icon="icon-ios7-search" style="background-color:transparent;height:100%;">
+   <i xid="i15" class="icon-ios7-search"></i>
+   <span xid="span20"></span></a></div> 
       </div> 
     </div>  
     <div class="x-panel-content" xid="content1"> 
