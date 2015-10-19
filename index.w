@@ -106,7 +106,7 @@
     xid="panel1"> 
     <div class="x-panel-top" xid="top1"> 
       <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar"
-        xid="titleBar1" title="WeX5 外卖"> 
+        xid="titleBar1" title="天下客" style="background-color:#59AF16;color:#FFFFFF;"> 
         <div class="x-titlebar-left" xid="div1"> 
           <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon"
             label="" xid="backBtn" icon="icon-chevron-left" onClick="{&quot;operation&quot;:&quot;window.close&quot;}"
@@ -115,7 +115,7 @@
             <span xid="span18"/> 
           </a> 
         </div>  
-        <div class="x-titlebar-title" xid="div2">WeX5 外卖</div>  
+        <div class="x-titlebar-title" xid="div2">天下客</div>  
         <div class="x-titlebar-right reverse" xid="div3"/> 
       </div> 
     </div>  
@@ -413,11 +413,11 @@
     </div>  
     <div class="x-panel-bottom" xid="bottom1"> 
       <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified"
-        tabbed="true" xid="buttonGroup1" selected="foodBtn"> 
-        <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-top"
-          label="菜单" xid="foodBtn" icon="icon-beer" target="foodContent"> 
-          <i xid="i5" class="icon-beer"/>  
-          <span xid="span6">菜单</span> 
+        tabbed="true" xid="buttonGroup1" selected="foodBtn" style="background-color:white;border-top-style:solid;border-top-width:1px;"> 
+        <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-top btn-green"
+          label="首页" xid="foodBtn" icon="icon-home" target="foodContent"> 
+          <i xid="i5" class="icon-home"/>  
+          <span xid="span6">首页</span> 
         </a>  
         <a component="$UI/system/components/justep/button/button" class="btn btn-default btn-icon-top"
           xid="cartBtn" icon="icon-ios7-cart" target="cartContent" label="购物车"> 

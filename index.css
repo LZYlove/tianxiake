@@ -10,5 +10,8 @@
 .takeout .x-titlebar {
 	background-color:#35b3e4;
 }
+.x-card.btn-group .btn:hover, .x-card.btn-group .btn.active {
+	    color: #6BCA21;
+}
 
 
